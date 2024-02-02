@@ -15,6 +15,6 @@ public class MainController {
 	
 	@PostMapping("/post")
 	public String helloWorldPost() {
-		return "Hello World Post";
+		return "Hello World from Post";
 	}
 }
